@@ -1,0 +1,45 @@
+[class*="col-"] {
+  text-align: center;
+  padding-top: 50px;
+}
+
+img {
+  height: 200px;
+
+}
+.img-blue {
+  height: 260px;
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+img.img-blue + h3, p {
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.background {
+  background-color: #f9f9f9;
+}
+
+
+
+@media all and (max-width: 767px){
+  XS
+}
+
+@media all and (min-width: 768px)
+and (max-width: 991px) {
+  MD
+}
+@media all and (min-width: 992px){
+  LG
+}
