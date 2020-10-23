@@ -3,9 +3,17 @@
   padding-top: 50px;
 }
 
+.container {
+  max-width: 992px;
+  margin: 0 auto;
+  text-align: center;
+}
+.background, .background-bottom {
+  background-color: #f9f9f9;
+}
+
 img {
   height: 200px;
-
 }
 .img-blue {
   height: 260px;
@@ -26,20 +34,23 @@ h3 {
   font-weight: bold;
 }
 
-.background {
-  background-color: #f9f9f9;
+@media screen and (max-width: 767px) {
+
+  .container {
+    padding: 0 20px;
+  }
+  .background-top, .background-bottom {
+    background-color: #F2F2CD;
+    font-size: 1.5em;
+  }
+  .background {
+    background-color: white;
+    font-size: 1.5em;
+  }
 }
 
-
-
-@media all and (max-width: 767px){
-  XS
-}
-
-@media all and (min-width: 768px)
+@media screen and (min-width: 768px)
 and (max-width: 991px) {
-  MD
-}
-@media all and (min-width: 992px){
-  LG
+
+  
 }
