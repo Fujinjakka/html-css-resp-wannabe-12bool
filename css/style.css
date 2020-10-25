@@ -52,5 +52,34 @@ h3 {
 @media screen and (min-width: 768px)
 and (max-width: 991px) {
 
-  
+  h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #428BCA;
+    background: #f0ea9d;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c2b504, 0 0 30px #c2b504, 0 0 40px #c2b504, 0 0 55px #c2b504, 0 0 75px #c2b504;
+  }
+  .background-top, .background, .background-bottom {
+    background-color: #f0ea9d;
+  }
+  h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #428BCA;
+    margin: 20px 0;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c2b504, 0 0 30px #c2b504, 0 0 40px #c2b504, 0 0 55px #c2b504, 0 0 75px #c2b504;
+  }
+  p {
+    font-size: 1.7em;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c2b504, 0 0 30px #c2b504, 0 0 40px #c2b504, 0 0 55px #c2b504, 0 0 75px #c2b504;
+  }
+  .img-blue {
+    height: 150px;
+  }
+  img {
+    height: 150px;
+  }
+  hr {
+    display: none;
+  }
 }
